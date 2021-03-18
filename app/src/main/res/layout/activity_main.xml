@@ -7,12 +7,15 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/displayText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:width="0dp"
         android:text="TextView"
         android:textSize="36sp"
-        app:layout_column="3"
+        app:layout_column="0"
+        app:layout_columnSpan="4"
         app:layout_row="0" />
 
     <Button
